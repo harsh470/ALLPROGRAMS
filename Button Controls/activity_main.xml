@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Name:" />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Sport:" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView_sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type or select a sport" />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Select sports"
+     />
+
+    <CheckBox
+        android:id="@+id/checkbox_balls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balls" />
+
+   <CheckBox
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/checkbox_nets"
+       android:text="Nets"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_rackets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rackets" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Gender:" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membership Status:" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_membership"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Not a Member"
+        android:textOn="Member" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Profile Picture:" />
+
+    <ImageButton
+        android:id="@+id/imageButton_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="Add Profile Picture" />
+    
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>

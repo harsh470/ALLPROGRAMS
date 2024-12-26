@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100px"
+    android:paddingHorizontal="40px">
+
+    <Button
+        android:id="@+id/btnLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout" />
+
+    <Button
+        android:id="@+id/btnRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout" />
+
+    <Button
+        android:id="@+id/btnConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Constraint Layout" />
+
+    <Button
+        android:id="@+id/btnTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Table Layout" />
+
+    <Button
+        android:id="@+id/btnFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frame Layout" />
+
+    <Button
+        android:id="@+id/btnListLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Layout" />
+
+    <Button
+        android:id="@+id/btnGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grid Layout" />
+
+    <Button
+        android:id="@+id/btnWebLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web Layout" />
+
+    <Button
+        android:id="@+id/btnScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scroll View" />
+</LinearLayout>
